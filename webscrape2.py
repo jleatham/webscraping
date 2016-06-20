@@ -23,11 +23,12 @@ else:
 
 title = webSoup.find_all("title")
 print "Title: ",title
+print title.string
 ptitle = webSoup.find_all("p","title")
 print "p,title: ",ptitle
 #a = webSoup.find_all("a")
 #print "a: ",a
 
 #print webSoup.prettify()
-print webSoup.get_text()
+#print webSoup.get_text()
 
